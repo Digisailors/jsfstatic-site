@@ -744,14 +744,14 @@ section.page-banner-section.menu {
   all and (min--moz-device-pixel-ratio: 1.5),
   all and (min-device-pixel-ratio: 1.5) {
   section.page-banner-section.menu {
-    background: #111 url("../upload/banners/ban1@2x.jpg") center center
+    background: #111 url("../upload/banners/ban2.jpg") center center
       no-repeat;
     background-size: cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   section.page-banner-section.menu {
-    background: #111 url("../images/JSFlogo.png") center center
+    background: #111 url("../upload/banners/ban2.jpg") center center
       no-repeat;
     background-size: cover;
   }
@@ -1120,7 +1120,7 @@ section.popular-menu-section .image-holder img {
 .title-box h1 span {
   display: inline-block;
   z-index: 4;
-  padding: 20px 40px;
+  padding: 20px 20px;
   position: relative;
 }
 .title-box h1 svg {
@@ -3120,7 +3120,7 @@ section.location-section .location-box {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("../upload/banners/banner4.jpeg") center center no-repeat;
+  background: #111 url("../upload/banners/banner1.jpg") center center no-repeat;
   background-size: cover;
   /*
      * Create an @2x-ish media query.
