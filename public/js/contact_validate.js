@@ -29,7 +29,7 @@ function validateEmail() {
     return false;
   }
 
-  if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+  if (!email.match(/^[a-z\._\-[0-9]*[@][a-z]*[\.][a-z]{2,4}$/)) {
     alert("Please enter a correct email address"); //Validation Message
     return false;
   }
