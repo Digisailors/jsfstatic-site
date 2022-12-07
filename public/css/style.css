@@ -1753,7 +1753,7 @@ section.small-menu-section .menu-box .menu-post .menu-price-order a:hover {
 }
 
 section.medium-menu-section {
-  padding: 80px 0 50px;
+  /* padding: 80px 0 50px; */
   background-color: #fff;
 }
 section.medium-menu-section h1 {
@@ -3139,14 +3139,14 @@ section.location-section .location-box {
   all and (min--moz-device-pixel-ratio: 1.5),
   all and (min-device-pixel-ratio: 1.5) {
   section.location-section .location-box {
-    background: #111 url("../upload/banners/ban3@2x.jpg") center center
+    background: #111 url("../upload/banners/banner1.jpg") center center
       no-repeat;
     background-size: cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   section.location-section .location-box {
-    background: #111 url("../upload/banners/ban3@2x.jpg") center center
+    background: #111 url("../upload/banners/banner1.jpg") center center
       no-repeat;
     background-size: cover;
   }
@@ -3849,6 +3849,7 @@ footer .copyright-line p span {
   .navbar-dark .navbar-toggler {
     margin-right: 1px;
   }
+
   .navbar-collapse {
     background-color: #000;
     padding: 20px 0;
